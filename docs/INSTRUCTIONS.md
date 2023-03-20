@@ -55,7 +55,7 @@ Kies een _user story_ met het label **sprint-9** uit de backlog van het project 
 De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
 #### REST-API
-Bekijk in de documentatie van de API of er voor de_user story_ een POST endpoint is en hoe die werkt. ProTip: Gebruik eventueel [Insomnia](https://insomnia.rest/) om bestaande endpoints te onderzoeken.
+Bekijk in de documentatie van de API of er voor de _user story_ een POST endpoint is en hoe die werkt. ProTip: Gebruik eventueel [Insomnia](https://insomnia.rest/) om bestaande endpoints te onderzoeken.
 
 ### Bronnen analyseerfase
 
