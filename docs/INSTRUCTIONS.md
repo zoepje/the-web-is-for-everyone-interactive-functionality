@@ -107,9 +107,7 @@ Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren
 
 ### Testen
 
-Het web is geen gecontroleerde (programmeer) omgeving, je kunt er gerust van uit gaan dat niemand precies hetzelfde te zien krijgt als wat jij in je browser ziet. Er zijn technische beperkingen, zoals afmetingen van de browser, grootte van het apparaat, manier van interactie, kwaliteit van de hardware, kwaliteit van het netwerk en er zijn mensen, allemaal verschillende mensen ...
-
-In de testfase test je website in verschillende browsers en devices.
+Om er voor te zorgen dat de functionaliteit voor iedereen toegankelijk is test je je werk in verschillende browsers en devices.
 
 Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.com), [css3test.com](http://css3test.com) en [kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/) om je code te testen en te achterhalen welke technieken browsers ondersteunen. 
 
