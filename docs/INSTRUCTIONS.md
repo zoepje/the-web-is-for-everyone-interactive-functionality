@@ -50,7 +50,7 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 4. Bespreek wat je aan werk verwacht en maak aantekeningen. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
 5. Neem ook de leervraag uit sprint 8 over en bedenk hoe je daar de komende 3 weken aan kan werken
 
-#### UsersStories
+#### User Stories
 Kies een _user story_ met het label **sprint-9** uit de backlog van het project waar je aan gaat werken. 
 De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
