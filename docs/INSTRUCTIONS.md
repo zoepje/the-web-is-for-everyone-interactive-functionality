@@ -39,13 +39,8 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen
 3. Bekijk de planning van [sprint 9](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
 4. Bespreek wat je aan werk verwacht en maak aantekeningen. (wat komt je bekend voor, wat heb je al vaker gedaan of wat lijkt je lastig)
-
-#### User Stories
-Kies een _user story_ uit de backlog van het project waar je aan gaat werken. (of schrijf er zelf een)
-De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
-
-#### Data posten
-Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
+5. Kies een _user story_ over _User Generated Content_ uit de backlog van het project waar je aan gaat werken, of schrijf er zelf een
+6. Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
 
 ### Bronnen analyseerfase
 
