@@ -61,7 +61,7 @@ Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met b
 Teken de _core-functionalty_ van de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
 
 #### Breakdown
-Maak een breakdown-schets waarin je de juiste HTML formulier-elementen die je nodig hebt beschrijft en pseudo-code voor wat er server-side in NodeJS gebeurt. 
+Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. Bedenk daarna de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
 * [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
