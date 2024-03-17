@@ -44,7 +44,7 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 Kies een _user story_ uit de backlog van het project waar je aan gaat werken. (of schrijf er zelf een)
 De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
-#### Directus REST-API
+#### Data posten
 Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
 
 ### Bronnen analyseerfase
@@ -56,13 +56,14 @@ Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (a
 
 In de ontwerpfase bedenk en schets je eerst wat je gaat maken. 
 
-Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
-
 #### Wireflow
-Teken de _core-functionalty_ van de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
+Teken de interactie voor de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
+
+#### Breakdown schets
+Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. 
 
 #### UML Diagram
-Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. Schets daarna een UML diagram met de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
+Schets een UML diagram met de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
 
@@ -83,6 +84,10 @@ Je gaat een server-side website bouwen met Node/Express/EJS gebaseerd op een RES
 1. Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. (Content layer)
 2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen. (Presentation layer)
 3. Zo nodig voeg je CSS en client-side JS toe om de User Experience te verbeteren. (Client-side scripting)
+
+### Bronnen bouwefase
+
+* [Understanding Progressive Enhancement](https://alistapart.com/article/understandingprogressiveenhancement/)
 
 
 ### Integreren
