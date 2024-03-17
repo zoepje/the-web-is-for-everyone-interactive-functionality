@@ -30,11 +30,11 @@ Ontwerp en maak een interactieve functionaliteit voor je opdrachtgever op basis 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 
-### Analyseren
+## Analyseren
 
 In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren. Je kiest een _user story_ waar je aan gaat werken en onderzoekt hoe het posten van data werkt met de REST-API.
 
-#### Sprintplanning
+### Sprintplanning
 1. Lees de instructies van deze leertaak zorgvuldig door
 2. Bekijk de verschillende fases van de DLC en wat je per fase gaat doen
 3. Bekijk de planning van [sprint 9](https://programma.fdnd.nl/data-driven-web/the-web-is-for-everyone) en wat je per week gaat doen
@@ -42,22 +42,22 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 5. Kies een _user story_ over _User Generated Content_ uit de backlog van het project waar je aan gaat werken, of schrijf er zelf een
 6. Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
 
-### Bronnen analyseerfase
+#### Bronnen analyseerfase
 
 * [Wat is een REST API nou echt: het basisidee](https://blog.wearefrank.nl/wat-is-een-rest-api-nou-echt-het-basisidee)
 
 
-### Ontwerpen
+## Ontwerpen
 
 In de ontwerpfase bedenk en schets je eerst wat je gaat maken. 
 
-#### Wireflow
+### Wireflow
 Teken de interactie voor de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
 
-#### Breakdown schets
+### Breakdown schets
 Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. 
 
-#### UML Diagram
+### UML Diagram
 Schets een UML diagram met de routing en pseudo-code voor de POST data en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
@@ -68,33 +68,34 @@ Schets een UML diagram met de routing en pseudo-code voor de POST data en contro
 * [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
 
-### Bouwen
+## Bouwen
 
-#### Inrichten ontwikkelomgeving
+### Inrichten ontwikkelomgeving
 
 Je gaat een server-side website bouwen met Node/Express/EJS gebaseerd op een REST API met JSON. Installeer de Node ontwikkelomgeving en installeer de packages die je nodig hebt. Maak de files en folders aan die je nodig hebt op de Node server. Gebruik hiervoor `npm install`, en kopieer uit je project uit de vorige sprint de code die je mee wilt nemen.
 
-#### Progressive enhancement
+### Progressive enhancement
 
 1. Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. (Content layer)
 2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen. (Presentation layer)
 3. Zo nodig voeg je CSS en client-side JS toe om de User Experience te verbeteren. (Client-side scripting)
 
-### Bronnen bouwefase
+#### Bronnen bouwefase
 
 * [Understanding Progressive Enhancement](https://alistapart.com/article/understandingprogressiveenhancement/)
 
 
-### Integreren
+## Integreren
 In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
 
 Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
 
-### Testen
+## Testen
 
 Om er voor te zorgen dat de functionaliteit voor iedereen toegankelijk is, test je je werk in verschillende browsers en devices.
 
 Gebruik [caniuse.com](https://caniuse.com) om te achterhalen welke technieken browsers ondersteunen. 
+
 
 ## Criteria
 *Definitions of done*
