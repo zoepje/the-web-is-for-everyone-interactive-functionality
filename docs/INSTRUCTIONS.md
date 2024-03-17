@@ -10,6 +10,7 @@ Deze leertaak hoort bij sprint 9 "The Web is for Everyone". Dit is een leertaak 
 In het college S09W1-01-Sprintplanning-The-Web-Is-For-Everyone wordt de opdracht uitgelegd.
 
 Bij deze leertaak hoort de deeltaak:
+- [Wireflow](https://github.com/fdnd-task/wireflow) (Sprint 05)
 - [UML Diagram](https://github.com/fdnd-task/uml-diagram) (Sprint 08)
 - [Progressive Enhancement](https://github.com/fdnd-task/progressive-enhancement)
 
@@ -60,13 +61,16 @@ Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met b
 #### Wireflow
 Teken de _core-functionalty_ van de _user story_ in een wireflow. Zorg dat je de verschillende states van het formulier, het versturen van data, een _succes state_ en mogelijke _errors_ ook tekent. 
 
-#### Breakdown
-Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. Schets daarna een UML diagra me de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
+#### UML Diagram
+Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. Schets daarna een UML diagram met de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
+
 * [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
+* [What is a UML diagram?](https://miro.com/diagramming/what-is-a-uml-diagram/)
 * [The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 * [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
 
 ### Bouwen
 
