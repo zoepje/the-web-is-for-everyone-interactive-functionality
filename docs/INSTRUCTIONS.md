@@ -41,11 +41,10 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### User Stories
 Kies een _user story_ uit de backlog van het project waar je aan gaat werken. (of schrijf er zelf een)
-
 De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 
 #### Directus REST-API
-Bespreek met je project coach of er voor de _user story_ een POST endpoint is en hoe deze werkt.
+Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
 
 ### Bronnen analyseerfase
 
