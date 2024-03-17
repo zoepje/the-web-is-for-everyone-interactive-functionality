@@ -58,7 +58,7 @@ Teken de interactie voor de _user story_ in een wireflow. Zorg dat je de verschi
 Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. 
 
 #### UML Diagram
-Schets een UML diagram met de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
+Schets een UML diagram met de routing en pseudo-code voor de POST data en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
 
