@@ -24,7 +24,7 @@ Het doel van deze opdracht is te leren hoe je een interactieve website kan ontwe
 
 ## Werkwijze
 
-Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user stories_ waar je aan gaat werken gaan over User Generatied Content. Hiervoor moet je data opslaan met een formulier en POST.
+Ontwerp en maak een interactieve functionaliteit voor je opdrachtgever op basis van een _user story_. De _user stories_ waar je aan gaat werken gaan over User Generatied Content. Hiervoor moet je data opslaan met een formulier en POST.
 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
