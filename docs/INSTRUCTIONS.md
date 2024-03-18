@@ -103,10 +103,10 @@ Gebruik [caniuse.com](https://caniuse.com) om te achterhalen welke technieken br
 
 Deze opdracht is done als:
 
-- [ ] Je hebt interactieve functionaliteit ontworpen en gemaakt met Node, Express, EJS en een REST API en HTML, CSS en misschien client-side JS
 - [ ] Jouw gebruikers kunnen iets achterlaten of toevoegen op jouw website (user generated content)
 - [ ] Je website is online gepubliceerd
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je proces bijgehouden in de Wiki
+- [ ] Je hebt interactieve functionaliteit ontworpen en gemaakt met Node, Express, EJS en een REST API en HTML, CSS en misschien client-side JS
 - [ ] Je hebt je werk getest in verschillende browsers en devices en de test gedocumenteerd in je wiki
 - [ ] Je hebt in de Readme bij 'Kenmerken' uitgelegd wat Progressive Enhancement is en hoe je dit hebt toegepast
 
