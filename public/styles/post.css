@@ -1,0 +1,97 @@
+main{
+  margin: 2rem;
+}
+
+article{
+  width: fit-content;
+  max-width: 750px;
+  margin: var(--margin-center);
+
+  & h1{
+    font-size: 2.2rem;
+    max-width: var(--line-length);
+  }
+
+  & img{
+    width: 85vw;
+    max-width: 700px;
+    max-height: 600px;
+    object-fit: cover;
+  }
+
+  & .excerpt{
+    & p{
+      font-size: 1.5rem;
+    }
+  }
+
+  & .content{
+    max-width: 700px;
+    margin: var(--margin-center);
+
+    & .info{
+      margin-bottom: 1rem;
+
+      & p{
+        border-bottom: var(--border);
+        text-transform: uppercase;
+        padding: 0;
+      }
+
+      & p:nth-of-type(1){
+        border-top: var(--border);
+      }
+    }
+
+    & h4, p, li{
+      font-size: 1.25rem;
+      max-width: var(--line-length);
+      line-height: var(--line-heigth);
+    }
+
+    & figcaption{
+      max-width: var(--line-length);
+      line-height: var(--line-heigth);
+    }
+
+    & img[style]{
+      width: 85vw !important;
+    }
+
+    & blockquote{
+      padding: 20px;
+
+      & cite{
+        font-size: 2rem;
+        line-height: var(--line-heigth);
+        max-width: var(--line-length);
+      }
+    }
+
+    & blockquote::before{
+      content: "‘’";
+      display: block;
+      color: #e85340;
+      font-size: 100px;
+      letter-spacing: -15px;
+      margin-bottom: -60px;
+      margin-left: -6px;
+    }
+
+    & ul{
+      padding: revert;
+    }
+  }
+}
+
+@media only screen and (min-width: 700px){
+  main{
+    margin: var(--margin-center);
+  }
+
+  article{
+    & .content{
+      width: fit-content;
+    }
+  }
+}
