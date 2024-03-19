@@ -123,7 +123,7 @@ app.get('/post/:slug', function (request, response) {
         hours = (parsedDate.getHours() < 10 ? '0' : ' ') + parsedDate.getHours(), // Als getHours() onder 10 is zet geef '0' ander ''. + haal uren uit de string
         minutes = (parsedDate.getMinutes() < 10 ? '0' : '') + parsedDate.getMinutes(), // Als getMinutes() onder 10 is zet geef '0' ander ''. + haal minuten uit de string
         time = hours + ':' + minutes, // Maak  een tijd aan "hours:minuten"
-        newDate = day + ' ' + month + ' ' + year + ' ' + time; // Maak een nieuwe datum met "dag maand jaar tijd"
+        newDate = day + ' ' + month + ' ' + year + ', ' + time; // Maak een nieuwe datum met "dag maand jaar tijd"
       postData[0].date = newDate // Zet waarde van de datum naar de nieuwe datum
     
     response.render('post', {post: postData, categories: categoriesData, category: filterCategorie})
