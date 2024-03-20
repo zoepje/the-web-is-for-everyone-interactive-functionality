@@ -44,7 +44,7 @@ const categoriesData = [
   {"id": 4, "name": "Kunst & Media", "slug": "kunst-media"},
   {"id": 3211, "name": "Podcasts", "slug": "podcast"},
   {"id": 63, "name": "Politiek", "slug": "politiek"},
-  {"id": 94, "name": "Wetenshap", "slug": "wetenschap"},
+  {"id": 94, "name": "Wetenschap", "slug": "wetenschap"},
 ]
 
 // Maak een GET route voor de home
