@@ -19,8 +19,12 @@ article{
     object-fit: cover;
   }
 
-  & .categorie{
+  & .categorie, .date, .info{
     font-family: var(--font-alt);
+    font-size: var(--font-size-small);
+  }
+
+  & .categorie{
     font-weight: bold;
     text-transform: uppercase;
     color: var(--accent-color1);
@@ -29,7 +33,6 @@ article{
   & .info{
     display: flex;
     align-items: center;
-    font-family: var(--font-alt); 
 
     & .deel-button{
       display: grid;

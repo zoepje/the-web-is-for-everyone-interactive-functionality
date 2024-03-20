@@ -30,6 +30,6 @@ main{
     padding: 0 var(--padding);
     font-family: var(--font-alt);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: var(--font-size-small);
   }
 }

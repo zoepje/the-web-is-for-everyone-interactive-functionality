@@ -29,6 +29,7 @@
   --font-text: TiemposText, 'Source serif 4';
   --font-heading: TiemposHeadline, Merriweather;
   --font-alt: Inter;
+  --font-size-small: 14px;
 }
 
 /* #region Fonts */
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, h6{
 header{
   font-family: var(--font-alt);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: var(--font-size-small);
 
   & .service-top{
     display: none;
