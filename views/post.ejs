@@ -14,17 +14,26 @@
       <img src="/assets/errorimg.png" alt="Kan foto niet laden">
     <% } %>
 
-    <div class="excerpt">
+    
       <% if (category[0]) { %>
-        <a href="/categorie/<%= category[0].slug %>"><%- category[0].name %></a>
+        <a class="categorie" href="/categorie/<%= category[0].slug %>"><%- category[0].name %></a>
       <% } %>
 
       <span class=".date"><%- post[0].date %></span>
+    <div class="info">
+      <span> x gedeeld</span>
+      <button class="deel-button" type="button">
+        <span class="material-symbols-outlined">share_windows</span>
+        <label>deel</label>
+      </button>
+    </div>
+
+    <div class="excerpt">
       <%- post[0].excerpt.rendered %>
     </div>
 
     <section class="content">
-      <div class="info">
+      <div class="read-info">
         <p>Auteur: <strong><%= post[0].yoast_head_json.author %></strong></p>
         <p>Leestijd: <strong><%= post[0].yoast_head_json.twitter_misc["Geschatte leestijd"] %></strong></p>
       </div>
