@@ -88,10 +88,6 @@ header{
   & nav{
     display: none;
 
-    & .search{
-      display: none;
-    }
-
     & .categories,
     .service{
       list-style: none;
@@ -189,8 +185,7 @@ footer{
     & .top-bar{
       display: block;
 
-      & .menu-button,
-      .search{
+      & .menu-button{
         display: none;
       }
     }
