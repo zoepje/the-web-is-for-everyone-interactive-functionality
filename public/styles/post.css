@@ -20,6 +20,7 @@ article{
   }
 
   & .categorie{
+    font-family: var(--font-alt);
     font-weight: bold;
     text-transform: uppercase;
     color: var(--accent-color1);
@@ -28,6 +29,7 @@ article{
   & .info{
     display: flex;
     align-items: center;
+    font-family: var(--font-alt); 
 
     & .deel-button{
       display: grid;
@@ -40,6 +42,8 @@ article{
 
   & .excerpt{
     & p{
+      font-family: var(--font-alt);
+      font-weight: 300;
       font-size: 1.5rem;
     }
   }
@@ -50,6 +54,7 @@ article{
 
     & .read-info{
       margin-bottom: 1rem;
+      font-family: var(--font-alt); 
 
       & p{
         border-bottom: var(--border);
@@ -81,6 +86,7 @@ article{
       padding: 20px;
 
       & cite{
+        font-family: var(--font-heading); 
         font-size: 2rem;
         line-height: var(--line-heigth);
         max-width: var(--line-length);
@@ -92,7 +98,7 @@ article{
       display: block;
       color: var(--accent-color1);
       font-size: 100px;
-      letter-spacing: -15px;
+      font-family: var(--font-heading); 
       margin-bottom: -60px;
       margin-left: -6px;
     }

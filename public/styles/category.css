@@ -13,6 +13,11 @@ h2{
     border-bottom: var(--border-light);
     padding: 10px 0;
 
+    & .date{
+      font-family: var(--font-alt);
+      font-weight: 300;
+    }
+
     & img{
       width: var(--thumbnail-width);
       height: var(--thumbnail-height);
@@ -27,7 +32,7 @@ h2{
     & article{
       display: flex;
       
-      & p{
+      & .date{
         width: 25%;
       }
 

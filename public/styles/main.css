@@ -25,11 +25,30 @@
   --padding: .5rem;
   --line-length: 30em;
   --line-heigth: 1.5;
+
+  --font-text: TiemposText, 'Source serif 4';
+  --font-heading: TiemposHeadline, Merriweather;
+  --font-alt: Inter;
 }
+
+/* #region Fonts */
+@font-face {
+  font-family: "TiemposText";
+  src: url(/assets/TiemposText-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TiemposHeadline";
+  src: url(/assets/TiemposHeadline-Medium.ttf);
+  font-weight: bold;
+}
+/* #endregion Fonts */
 
 /* #region Basics */
 body{
   margin: 1rem 0;
+  font-family: var(--font-text);
 
   & a{
     text-decoration: none;
@@ -50,10 +69,18 @@ body{
 h1{
   text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-heading); 
+}
 /* #endregion Basics */
 
 /* #region Header */
 header{
+  font-family: var(--font-alt);
+  text-transform: uppercase;
+  font-size: 14px;
+
   & .service-top{
     display: none;
   }

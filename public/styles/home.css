@@ -28,5 +28,8 @@ main{
     justify-content: space-between;
     border-top: var(--border);
     padding: 0 var(--padding);
+    font-family: var(--font-alt);
+    text-transform: uppercase;
+    font-size: 14px;
   }
 }
