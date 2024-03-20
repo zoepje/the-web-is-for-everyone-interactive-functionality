@@ -7,8 +7,11 @@
 
 :root{
   --color-dark: #000000;
-  --color-dark-100: #adadad;
+  --color-dark-100: #f7f7f5;
   --color-light: #ffffff;
+  --accent-color1: #e84340;
+  --accent-color2: #5340e8;
+  --accent-color3: #f2d930;
 
   --thumbnail-width: 100%;
   --thumbnail-height: 200px;
@@ -69,15 +72,19 @@ header{
   & .top-bar{
     padding: var(--padding);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    & p{
+      display: none;
+    }
 
     & .menu-button{
       display: grid;
       border: 0;
       background: transparent;
       color: var(--color-dark);
+      cursor: pointer;
     }
 
     & .search{
@@ -183,10 +190,28 @@ footer{
     }
 
     & .top-bar{
-      display: block;
+      margin: var(--margin-center);
+      max-width: var(--max-width);
 
       & .menu-button{
         display: none;
+      }
+
+      & p{
+        display: block;
+        width: 20%;
+      }
+
+      & h1{
+        width: 20%;
+      }
+      
+      & .search{
+        display: flex;
+        padding: var(--padding);
+        width: 20%;
+        justify-content: end;
+        align-items: center;
       }
     }
 
