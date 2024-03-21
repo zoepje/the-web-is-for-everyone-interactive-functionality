@@ -102,7 +102,7 @@ app.get('/categorie/:slug', function (request, response) {
 })
 
 // Maak een GET route voor de post
-app.get('/post/:slug', function (request, response) {
+app.get('/artikel/:slug', function (request, response) {
    // Haal voor deze post de velden date, title, content, excerpt, categories, yoast_head, yoast_head_json.author, jetpack_featured_media_url uit de API
   Promise.all([fetchJson(postsUrl + '/?slug=' + request.params.slug + '&_fields=date,title,content,excerpt,categories,yoast_head,yoast_head_json.author,yoast_head_json.twitter_misc,jetpack_featured_media_url'), 
     fetchJson(categoriesUrl + '?_fields=id,name,slug&per_page=100')]).then(([postData, categoryData]) => {
