@@ -41,6 +41,10 @@ article{
       color: var(--accent-color2);
       cursor: pointer;
     }
+
+    & .done{
+      color: var(--accent-color3);
+    }
   }
 
   & .excerpt{
@@ -124,13 +128,13 @@ article{
 
     & .info{
       & .deel-button{
-        & label{
+        & .btn-label{
           display: none;
         }
       }
 
       & .deel-button:hover{
-        & label{
+        & .btn-label{
           display: block;
         }
       }
