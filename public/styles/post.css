@@ -30,7 +30,7 @@ article{
     color: var(--accent-color1);
   }
 
-  & .info{
+  & .shares{
     display: flex;
     align-items: center;
 

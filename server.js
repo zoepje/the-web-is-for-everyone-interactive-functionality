@@ -35,8 +35,7 @@ const redpersUrl = 'https://redpers.nl/wp-json/wp/v2/'
 const directusUrl = 'https://fdnd-agency.directus.app/items/redpers_shares'
 const postsUrl = redpersUrl + 'posts'
 const categoriesUrl = redpersUrl + 'categories'
-const mediaUrl = redpersUrl + 'media'
-// const usersUrl = redpersUrl + 'users'
+
 const categoriesData = [
   {"id": 9, "name": "Binnenland", "slug": "binnenland"},
   {"id": 1010, "name": "Buitenland", "slug": "buitenland"}, 
@@ -104,11 +103,23 @@ app.get('/categorie/:slug', function (request, response) {
 // Maak een GET route voor de post
 app.get('/artikel/:slug', function (request, response) {
    // Haal voor deze post de velden date, title, content, excerpt, categories, yoast_head, yoast_head_json.author, jetpack_featured_media_url uit de API
-  Promise.all([fetchJson(postsUrl + '/?slug=' + request.params.slug + '&_fields=date,title,content,excerpt,categories,yoast_head,yoast_head_json.author,yoast_head_json.twitter_misc,jetpack_featured_media_url'), 
+  Promise.all([fetchJson(postsUrl + '/?slug=' + request.params.slug + '&_fields=date,slug,title,content,excerpt,categories,yoast_head,yoast_head_json.author,yoast_head_json.twitter_misc,jetpack_featured_media_url'), 
     fetchJson(categoriesUrl + '?_fields=id,name,slug&per_page=100')]).then(([postData, categoryData]) => {
     // Render post.ejs uit de views map en geef de opgehaalde data mee als variabele, genaamd persons
     // HTML maken op basis van JSON data
-      
+    
+    fetchJson(directusUrl).then((shares) => {
+      // Map de postData array uit wordpress, map is een soort 'loop' structuur voor arrays
+      postData.map((article) =>
+        // Gebruik de Object.assign() functie om het aantal shares toe te voegen op het article
+        // NB: Object.assign past het 'article' object
+        Object.assign(article, {
+          // Zoek in shares naar shares.slug en of het gelijk is aan de params.slug, 
+          // koppel het aantal shares of 0 als het niet bestaat
+          shares: shares.data.find((shares) => shares.slug == request.params.slug)?.shares || 0,
+        })
+      ) 
+
       // filter de categorie zodat je de juite naam kan tonen
       // kijk naar de eerste categorie in de lijst
       let filterCategorie = categoryData.filter(category => {
@@ -126,7 +137,23 @@ app.get('/artikel/:slug', function (request, response) {
         time = hours + ':' + minutes, // Maak  een tijd aan "hours:minuten"
         newDate = day + ' ' + month + ' ' + year + ', ' + time; // Maak een nieuwe datum met "dag maand jaar tijd"
       postData[0].date = newDate // Zet waarde van de datum naar de nieuwe datum
-    
-    response.render('post', {post: postData, categories: categoriesData, category: filterCategorie})
+      
+      response.render('post', {post: postData, categories: categoriesData, category: filterCategorie})
+    })  
   })
+})
+
+app.post('/artikel/:slug', (request, response) => {
+  fetchJson(directusUrl + '?filter[slug][_eq]=' + request.params.slug).then(({data}) => {
+    // Doe een PATCH op directus, stuur de id mee als die er is.
+    fetchJson(`${directusUrl}/${data[0]?.id ? data[0].id : ''}`, {
+      method: data[0]?.id ? 'PATCH' : 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        slug: request.params.slug,
+        shares: data.length > 0 ? data[0].shares + 1 : 1,
+      }),
+    })
+  })
+  response.redirect(301, '/artikel/' + request.params.slug)
 })

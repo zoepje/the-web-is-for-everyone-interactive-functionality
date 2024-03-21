@@ -14,18 +14,21 @@
       <img src="/assets/errorimg.png" alt="Kan foto niet laden">
     <% } %>
 
-    
+    <div class="info">
       <% if (category[0]) { %>
         <a class="categorie" href="/categorie/<%= category[0].slug %>"><%- category[0].name %></a>
       <% } %>
 
       <span class="date"><%- post[0].date %></span>
-    <div class="info">
-      <span> x gedeeld</span>
-      <button class="deel-button" type="button">
-        <span class="material-symbols-outlined">share_windows</span>
-        <label>deel</label>
-      </button>
+
+      <form action="/artikel/<%= post[0].slug %>" method="post" class="shares">
+        <input type="hidden" name="slug" value="<%= post[0].slug %>">
+        <label for="share"> <%= post[0].shares  %>x gedeeld</label>
+        <button class="deel-button" type="submit" id="share">
+          <span class="material-symbols-outlined">share_windows</span>
+          <label>deel</label>
+        </button>
+      </form>
     </div>
 
     <div class="excerpt">
