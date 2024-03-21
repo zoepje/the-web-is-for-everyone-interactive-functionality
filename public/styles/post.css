@@ -19,7 +19,7 @@ article{
     object-fit: cover;
   }
 
-  & .categorie, .date, .info{
+  & .info{
     font-family: var(--font-alt);
     font-size: var(--font-size-small);
   }
