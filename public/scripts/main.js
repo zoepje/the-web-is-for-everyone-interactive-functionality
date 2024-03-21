@@ -19,7 +19,7 @@ const shareBtn = document.querySelector('.deel-button');
     
 function shareLink(){
   navigator.clipboard.writeText(link);
-  shareBtn.classList.toggle('done');
+  shareBtn.classList.add('done');
 }
 
 shareBtn.addEventListener('click', shareLink)
