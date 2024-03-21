@@ -1,3 +1,7 @@
+body{
+  background-color: var(--color-light-100);
+}
+
 main{
   margin: var(--margin-center);
   display: flex;
@@ -6,6 +10,7 @@ main{
 }
 
 .frontpage-card{
+  background-color: var(--color-light);
   margin: 1rem;
   border: var(--border);
   max-width: 350px;

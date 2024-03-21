@@ -16,10 +16,12 @@ menuBtn.addEventListener('click', toggleMenu);
 //#region Share
 const link = encodeURI(window.location.href);
 const shareBtn = document.querySelector('.deel-button');
+const notification = document.querySelector('.notification');
     
 function shareLink(){
   navigator.clipboard.writeText(link);
   shareBtn.classList.add('done');
+  notification.classList.add('copied');
 }
 
 shareBtn.addEventListener('click', shareLink)

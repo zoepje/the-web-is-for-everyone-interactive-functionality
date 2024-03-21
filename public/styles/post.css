@@ -41,10 +41,19 @@ article{
       color: var(--accent-color2);
       cursor: pointer;
     }
-
+  
     & .done{
-      color: var(--accent-color3);
+      color: var(--color-dark-100);
     }
+  }
+
+  & .notification{
+    display: none;
+  }
+
+  & .copied{
+    display: block;
+    color: var(--color-dark-100);
   }
 
   & .excerpt{
