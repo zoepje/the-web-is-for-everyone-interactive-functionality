@@ -31,11 +31,12 @@ app.listen(app.get('port'), function () {
 })
 
 /*** Routes & data ***/
-const apiUrl = 'https://redpers.nl/wp-json/wp/v2/'
-const postsUrl = apiUrl + 'posts'
-const categoriesUrl = apiUrl + 'categories'
-const mediaUrl = apiUrl + 'media'
-// const usersUrl = apiUrl + 'users'
+const redpersUrl = 'https://redpers.nl/wp-json/wp/v2/'
+const directusUrl = 'https://fdnd-agency.directus.app/items/redpers_shares'
+const postsUrl = redpersUrl + 'posts'
+const categoriesUrl = redpersUrl + 'categories'
+const mediaUrl = redpersUrl + 'media'
+// const usersUrl = redpersUrl + 'users'
 const categoriesData = [
   {"id": 9, "name": "Binnenland", "slug": "binnenland"},
   {"id": 1010, "name": "Buitenland", "slug": "buitenland"}, 
