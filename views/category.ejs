@@ -15,7 +15,7 @@
       <% posts.forEach(function(post) { %>
         <a href="/artikel/<%= post.slug %>">
           <article class="category-card">
-            <p class="date"><%- post.date %></p>
+            <p class="date"><%= post.date %></p>
       
             <h3><%- post.title.rendered %></h3>
             
