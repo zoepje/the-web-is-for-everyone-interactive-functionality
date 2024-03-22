@@ -76,6 +76,7 @@ article{
         border-bottom: var(--border);
         text-transform: uppercase;
         padding: 0;
+        font-size: 14px;
       }
 
       & p:nth-of-type(1){
@@ -90,8 +91,10 @@ article{
     }
 
     & figcaption{
-      max-width: var(--line-length);
+      max-width: 700px;
       line-height: var(--line-heigth);
+      font-style: italic;
+      padding-bottom: var(--padding);
     }
 
     & img[style]{
