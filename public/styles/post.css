@@ -76,7 +76,6 @@ article{
         border-bottom: var(--border);
         text-transform: uppercase;
         padding: 0;
-        font-size: 14px;
       }
 
       & p:nth-of-type(1){
