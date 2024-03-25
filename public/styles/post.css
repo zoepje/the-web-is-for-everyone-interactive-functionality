@@ -49,11 +49,11 @@ article{
 
   & .notification{
     display: none;
+    color: var(--color-dark-100);
   }
 
   & .copied{
     display: block;
-    color: var(--color-dark-100);
   }
 
   & .excerpt{
