@@ -48,6 +48,10 @@
 /* #endregion Fonts */
 
 /* #region Basics */
+img{
+  width: 100%;
+}
+
 body{
   margin: 1rem 0;
   font-family: var(--font-text);
