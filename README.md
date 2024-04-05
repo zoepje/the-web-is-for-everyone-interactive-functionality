@@ -22,31 +22,31 @@ Er zijn verschillende weergave. Waarbij artikelen worden weergeven, maar ook een
 ### Home 📸
 **Desktop**
 
-<img width="800px" alt="Desktop Home" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/837db6b3-1c49-4a3a-8abf-b68b4c7112dc">
+<img width="800" alt="Desktop Home" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/a491d466-a239-4b15-afc6-d432792dd2eb">
 
 **Mobile**
 
-<img width="400px" alt="Mobile Home" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/4353cc80-cfb9-43cf-b3c2-7ba4b3928fdd">
+<img width="400" alt="Mobile Home" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/46fc49e1-5532-493f-a5b2-62b665771de1">
 
-<img width="400px" alt="Mobile Menu" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/5783b268-0b74-4ad0-aaae-790bec72775c">
+<img width="400" alt="Mobile Menu" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/5783b268-0b74-4ad0-aaae-790bec72775c">
 
 ### Categorie 📸
 **Desktop**
 
-<img width="800px" alt="Desktop Categorie" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/2baad904-a749-4233-9aa6-e2e04687d898">
+<img width="800" alt="Desktop Categorie" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/d8e2c543-a45d-4028-bef6-003a06cfc6d5">
 
 **Mobile**
 
-<img width="400px" alt="Mobile Categorie" src="https://github.com/zoepje/server-side-rendering-server-side-website/assets/144004461/8112ab39-69b2-4c11-990f-ec4e31676777">
+<img width="400" alt="Mobile Categorie" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/b4325efd-1614-428e-9631-58f3920492ae">
 
 ### Artikel 📸
 **Desktop**
 
-<img width="800px" alt="Desktop Artikel" src="">
+<img width="800" alt="Desktop Artikel" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/cf5215d1-8103-46f4-bd49-7b19a7ca7465">
 
 **Mobile**
 
-<img width="400px" alt="Mobile Artikel" src="">
+<img width="400" alt="Mobile Artikel" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/f2e5a900-6524-48f1-bf14-e0fffc9e8f82">
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
