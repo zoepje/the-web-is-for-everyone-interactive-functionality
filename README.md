@@ -50,7 +50,7 @@ Er zijn verschillende weergave. Waarbij artikelen worden weergeven, maar ook een
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
-Je kunt hier de website bezoeken🌐 https://server-side-redpers.onrender.com/
+Je kunt hier de website bezoeken🌐 https://the-web-is-for-everyone.onrender.com
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
