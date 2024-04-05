@@ -48,19 +48,19 @@ Er zijn verschillende weergave. Waarbij artikelen worden weergeven, maar ook een
 
 <img width="400" alt="Mobile Artikel" src="https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/assets/144004461/f2e5a900-6524-48f1-bf14-e0fffc9e8f82">
 
-
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Je kunt hier de website bezoeken🌐 https://the-web-is-for-everyone.onrender.com
 
 ## Gebruik
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-Voor dit project heb ik een responsieve startpagina, categoriepagina en artikelweergave ontwikkeld. Deze zijn dynamisch en halen gegevens op uit de Red Pers WordPress API. Op de startpagina wordt een overzicht getoond van de 30 meest recente artikelen. In het menu kun je kiezen uit 8 hoofdcategorieën. Wanneer je op een categorie klikt, wordt je naar de bijbehorende categoriepagina geleid waar je een overzicht vindt van de artikelen binnen die categorie. Door op een artikel te klikken, word je naar de pagina van dat artikel gebracht waar je het volledige artikel kunt lezen.
+Voor dit project heb ik een responsieve startpagina, categoriepagina en artikelweergave ontwikkeld. Deze zijn dynamisch en halen gegevens op uit de Red Pers WordPress API. Op de startpagina wordt een overzicht getoond van de 30 meest recente artikelen. In het menu kun je kiezen uit 8 hoofdcategorieën. Wanneer je op een categorie klikt, wordt je naar de bijbehorende categoriepagina geleid waar je een overzicht vindt van de artikelen binnen die categorie. Door op een artikel te klikken, word je naar de pagina van dat artikel gebracht waar je het volledige artikel kunt lezen. Elk artikel heeft een deelknop waar je op kunt klikken en dan wordt de link van dat artikel gekopieerd.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-Bij het ontwikkelen van deze website heb ik gebruikgemaakt van EJS, CSS, JavaScript en Node.js. In mijn EJS-templates heb ik zowel de HTML-structuur als dynamische data uit de API geïntegreerd. Met CSS heb ik de visuele opmaak van de website gemaakt. Met JavaScript heb ik een uitklapbaar menu geïmplementeerd, en met behulp van Node.js haal ik de benodigde data op uit de API. Voor meer details over hoe ik dit specifiek heb gebouwd, kun je terecht in mijn [Wiki](https://github.com/zoepje/server-side-rendering-server-side-website/wiki/3.-Bouwen).
+Bij het ontwikkelen van deze website heb ik gebruikgemaakt van EJS, CSS, JavaScript en Node.js. In mijn EJS-templates heb ik zowel de HTML-structuur als dynamische data uit de API geïntegreerd. Met CSS heb ik de visuele opmaak van de website gemaakt. Met JavaScript heb ik een deelknop geïmplementeerd, en met behulp van Node.js post ik de benodigde data op de API. Voor meer details over hoe ik dit specifiek heb gebouwd, kun je terecht in mijn [Wiki](https://github.com/zoepje/the-web-is-for-everyone-interactive-functionality/wiki/3.-Bouwen).
 
-Daarnaast heb ik gewerkt volgens Progressive Enhancement, dit houd in dat ik eerst een laag HTML heb geschreven die het doet op 
+Ik heb ook gewerkt volgens het principe van Progressive Enhancement. Dit betekent dat je eerst een functionele basis bouwt. Vervolgens verbeter je het stap voor stap om het aantrekkelijker en gebruiksvriendelijker te maken.
+Ik eerst een laag HTML heb geschreven die het doet op elke browser. Daarna ben ik pas CSS gaan toepassen om de opmaak te maken. Nadat dit werkte heb ik pas JavaScript toegepast.
 
 
 ## Installatie
