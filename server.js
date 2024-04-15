@@ -39,7 +39,7 @@ const categoriesUrl = redpersUrl + 'categories'
 const categoriesData = [
   {"id": 9, "name": "Binnenland", "slug": "binnenland"},
   {"id": 1010, "name": "Buitenland", "slug": "buitenland"}, 
-  {"id": 10, "name": "Columns", "slug": "columns"},
+  {"id": 7164, "name": "Column", "slug": "column"},
   {"id": 6, "name": "Economie", "slug": "economie"},
   {"id": 4, "name": "Kunst & Media", "slug": "kunst-media"},
   {"id": 3211, "name": "Podcasts", "slug": "podcast"},
